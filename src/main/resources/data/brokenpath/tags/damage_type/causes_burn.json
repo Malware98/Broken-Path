@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "brokenpath:fire_magic",
+    "minecraft:on_fire",
+    "minecraft:lava",
+    "minecraft:fireball"
+  ]
+}

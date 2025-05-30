@@ -1,0 +1,44 @@
+# La versión del esquema de tu archivo toml. NO CAMBIES ESTO.
+modLoader="javafml" # Esto es para Forge, no lo cambies
+loaderVersion="[1,)" # Rango de versiones del cargador, asegúrate de que sea compatible con tu versión de Forge (1.20.1)
+license="All rights reserved" # Tu licencia o "All rights reserved"
+##issueTrackerURL="https://github.com/Malware98/BrokenPath/issues" # Opcional: Si tienes un repositorio de GitHub para reportar bugs
+
+# Define la versión de Minecraft para la cual es tu mod.
+# El rango de versiones aquí significa que tu mod se cargará en cualquier versión de Minecraft
+# desde la 1.20.1 (incluida) hasta la próxima versión mayor (excluida)
+# Ejemplo: si pones "[1.20.1,1.21)", funcionará para 1.20.1, 1.20.2, etc., pero no para 1.21.
+# Para 1.20.1 exclusivamente: "[1.20.1,1.20.2)"
+minecraft_version="[1.20.1,1.20.2)" # Esta es la versión para la que estamos desarrollando
+
+# Lista de tus mods
+[[mods]] # Un nuevo objeto de mod para cada mod que tengas en este archivo toml (generalmente solo uno)
+modId="brokenpath" # TU MOD ID ÚNICO. DEBE COINCIDIR CON BrokenPath.MOD_ID
+version="0.1-1.20.1" # La versión actual de tu mod. Se recomienda usar la convención SemVer (Mayor.Menor.Parche)
+displayName="Broken Path" # El nombre visible de tu mod en el juego
+##updateJSONURL="" # Opcional: URL a un archivo JSON para actualizaciones automáticas
+##logoFile="logo.png" # Opcional: Una imagen para el logo de tu mod (ponlo en src/main/resources)
+credits="Made by Malware98" # Tus créditos
+authors="Malware98" # Los autores principales del mod
+
+description='''
+La forja de los dioses creó razas, la guerra dibujó fronteras, y ahora... tu elección rompe el ciclo.
+
+Broken Path | Hasta los caminos rotos llevan a la gloria.
+''' # Una breve descripción de tu mod
+
+
+# Opcional: Requerimientos de dependencias para tu mod
+# [[dependencies.brokenpath]]
+# modId="forge"
+# mandatory=true
+# versionRange="[47.0.0,)" # Ajusta este rango a la versión de Forge para 1.20.1 que estés usando
+# ordering="NONE"
+# side="BOTH"
+
+# [[dependencies.brokenpath]]
+# modId="minecraft"
+# mandatory=true
+# versionRange="[1.20.1,1.20.2)"
+# ordering="NONE"
+# side="BOTH"

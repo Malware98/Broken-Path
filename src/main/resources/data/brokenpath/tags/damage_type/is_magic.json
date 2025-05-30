@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "brokenpath:fire_magic",
+    "brokenpath:ice_magic",
+    "brokenpath:electric_magic",
+    "brokenpath:dark_magic",
+    "brokenpath:sonic_magic",
+    "brokenpath:radiant_magic",
+    "brokenpath:arcane_magic",
+    "minecraft:magic",
+    "minecraft:wither"
+  ]
+}
