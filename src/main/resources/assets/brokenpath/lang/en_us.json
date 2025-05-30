@@ -1,5 +1,6 @@
 {
   "effect.brokenpath.protection_regen": "Protection Regen.",
   "effect.brokenpath.mana_regen": "Mana Regen.",
-  "effect.brokenpath.vigor_regen": "Vigor Regen."
+  "effect.brokenpath.vigor_regen": "Vigor Regen.",
+  "effect.minecraft.regeneration": "Health Regen."
 }
