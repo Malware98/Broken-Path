@@ -64,7 +64,7 @@ repositories {
 }
 
 dependencies {
-    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+    minecraft "net.minecraftforge:forge:1.20.1-47.4.0"
     implementation 'com.google.code.gson:gson:2.10.1'
 }
 
