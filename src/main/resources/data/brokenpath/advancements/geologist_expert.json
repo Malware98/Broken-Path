@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_ore"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.geologist_expert.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.geologist_expert.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "brokenpath:skilled_mineralogist",
+  "criteria": {
+    "always_true": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

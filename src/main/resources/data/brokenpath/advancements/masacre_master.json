@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_sword"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.masacre_master.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.masacre_master.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "brokenpath:shadows_terror",
+  "criteria": {
+    "always_true": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

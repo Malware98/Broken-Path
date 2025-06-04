@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:coal_ore"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.amateur_excavator.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.amateur_excavator.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "brokenpath:rock_finder",
+  "criteria": {
+    "always_true": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

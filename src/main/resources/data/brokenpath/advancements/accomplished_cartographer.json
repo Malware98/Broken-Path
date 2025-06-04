@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:map"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.accomplished_cartographer.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.accomplished_cartographer.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "brokenpath:local_adventurer",
+  "criteria": {
+    "always_true": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

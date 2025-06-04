@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_boots"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.first_steps.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.first_steps.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "always_true": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

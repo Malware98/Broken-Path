@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:calendar"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.one_week_world.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.one_week_world.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "brokenpath:a_whole_day",
+  "criteria": {
+    "always_true": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

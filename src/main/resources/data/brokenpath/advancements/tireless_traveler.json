@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_boots"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.tireless_traveler.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.tireless_traveler.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "brokenpath:constant_walker",
+  "criteria": {
+    "always_true": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

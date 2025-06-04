@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:obsidian"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.master_obsidian.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.master_obsidian.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:nether/create_nether_portal",
+  "criteria": {
+    "always_true": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lead"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.tireless_shepherd.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.tireless_shepherd.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "brokenpath:beast_tamer",
+  "criteria": {
+    "always_true": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

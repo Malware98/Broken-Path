@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_boots"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.constant_walker.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.constant_walker.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "brokenpath:first_steps",
+  "criteria": {
+    "always_true": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

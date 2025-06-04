@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.novice_sower.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.novice_sower.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/plant_seed",
+  "criteria": {
+    "always_true": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

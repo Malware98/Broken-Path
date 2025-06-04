@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stick"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.creative_crafter.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.creative_crafter.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "brokenpath:first_crafting",
+  "criteria": {
+    "always_true": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

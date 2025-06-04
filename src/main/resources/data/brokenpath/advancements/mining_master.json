@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.mining_master.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.mining_master.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "brokenpath:geologist_expert",
+  "criteria": {
+    "always_true": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

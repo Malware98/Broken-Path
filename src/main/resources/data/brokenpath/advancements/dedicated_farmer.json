@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wheat"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.dedicated_farmer.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.dedicated_farmer.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "brokenpath:novice_sower",
+  "criteria": {
+    "always_true": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

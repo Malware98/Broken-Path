@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_sword"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.creature_hunter.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.creature_hunter.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "brokenpath:fledgling_advocate",
+  "criteria": {
+    "always_true": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

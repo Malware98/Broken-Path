@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:clock"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.a_whole_day.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.a_whole_day.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "brokenpath:first_steps",
+  "criteria": {
+    "always_true": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

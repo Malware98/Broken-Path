@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.accomplished_agronomist.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.accomplished_agronomist.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "brokenpath:dedicated_farmer",
+  "criteria": {
+    "always_true": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

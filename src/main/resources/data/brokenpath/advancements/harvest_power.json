@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_carrot"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.harvest_power.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.harvest_power.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "brokenpath:accomplished_agronomist",
+  "criteria": {
+    "always_true": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_beef"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.art_kitchen.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.art_kitchen.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/meat_please",
+  "criteria": {
+    "always_true": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

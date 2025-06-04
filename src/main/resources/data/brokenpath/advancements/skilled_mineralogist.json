@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_ore"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.skilled_mineralogist.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.skilled_mineralogist.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "brokenpath:amateur_excavator",
+  "criteria": {
+    "always_true": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}
