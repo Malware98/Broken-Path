@@ -80,5 +80,6 @@
   "achievement.brokenpath.one_week_world.title": "One Week World",
   "achievement.brokenpath.one_week_world.description": "Survive 7 Minecraft days.",
   "achievement.brokenpath.im_still_alive.title": "I'm Still Alive",
-  "achievement.brokenpath.im_still_alive.description": "Survive 30 Minecraft days."
+  "achievement.brokenpath.im_still_alive.description": "Survive 30 Minecraft days.",
+  "message.brokenpath.error.race_not_found": "Error: Race '%s' does not exist. Valid races: %s"
 }
