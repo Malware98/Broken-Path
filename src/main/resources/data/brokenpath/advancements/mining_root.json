@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.mining_root.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.mining_root.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "brokenpath:root",
+  "criteria": {
+    "craft_first_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wooden_pickaxe"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

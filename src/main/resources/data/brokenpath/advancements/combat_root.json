@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.combat_root.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.combat_root.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "brokenpath:root",
+  "criteria": {
+    "dealt_first_damage": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

@@ -13,7 +13,7 @@
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "minecraft:husbandry/meat_please",
+  "parent": "brokenpath:crafting_root",
   "criteria": {
     "always_true": {
       "trigger": "minecraft:impossible"

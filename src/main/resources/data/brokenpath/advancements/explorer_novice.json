@@ -13,7 +13,7 @@
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "minecraft:adventure/root",
+  "parent": "brokenpath:exploration_root",
   "criteria": {
     "always_true": {
       "trigger": "minecraft:impossible"

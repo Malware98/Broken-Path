@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:compass"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.root.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.root.description"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "spawn_in_world": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "age": {
+            "min": 1
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

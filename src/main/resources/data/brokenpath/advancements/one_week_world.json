@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:calendar"
+      "item": "minecraft:clock"
     },
     "title": {
       "translate": "achievement.brokenpath.one_week_world.title"

@@ -3,12 +3,6 @@
   "values": [
     "brokenpath:slashing",
     "brokenpath:piercing",
-    "brokenpath:blunt",
-    "minecraft:arrow",
-    "minecraft:mob_attack",
-    "minecraft:axe",
-    "minecraft:sword",
-    "minecraft:trident",
-    "minecraft:thrown"
+    "brokenpath:blunt"
   ]
 }

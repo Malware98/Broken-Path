@@ -4,6 +4,22 @@
   "effect.brokenpath.vigor_regen": "Vigor Regen.",
   "effect.minecraft.regeneration": "Health Regen.",
 
+  "achievement.brokenpath.root.title": "Broken Path",
+  "achievement.brokenpath.root.description": "Forge your own destiny.",
+
+  "achievement.brokenpath.exploration_root.title": "Exploration",
+  "achievement.brokenpath.exploration_root.description": "Uncover the secrets of the world.",
+  "achievement.brokenpath.combat_root.title": "Combat",
+  "achievement.brokenpath.combat_root.description": "Conquer your foes.",
+  "achievement.brokenpath.mining_root.title": "Mining",
+  "achievement.brokenpath.mining_root.description": "Unearth valuable treasures.",
+  "achievement.brokenpath.farming_root.title": "Farming & Ranching",
+  "achievement.brokenpath.farming_root.description": "Cultivate the land and tend to your animals.",
+  "achievement.brokenpath.crafting_root.title": "Crafting & Manufacturing",
+  "achievement.brokenpath.crafting_root.description": "Master the art of creation.",
+  "achievement.brokenpath.survival_root.title": "Survival",
+  "achievement.brokenpath.survival_root.description": "Endure the perils of the world.",
+
   "achievement.brokenpath.explorer_novice.title": "Explorer Novice",
   "achievement.brokenpath.explorer_novice.description": "Discover 3 unique biomes.",
   "achievement.brokenpath.local_adventurer.title": "Local Adventurer",

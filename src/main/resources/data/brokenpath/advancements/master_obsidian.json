@@ -13,7 +13,7 @@
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "minecraft:nether/create_nether_portal",
+  "parent": "brokenpath:mining_root",
   "criteria": {
     "always_true": {
       "trigger": "minecraft:impossible"

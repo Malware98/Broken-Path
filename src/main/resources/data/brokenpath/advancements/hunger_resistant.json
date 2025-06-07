@@ -13,7 +13,7 @@
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "minecraft:adventure/avoid_vibration",
+  "parent": "brokenpath:survival_root",
   "criteria": {
     "always_true": {
       "trigger": "minecraft:impossible"

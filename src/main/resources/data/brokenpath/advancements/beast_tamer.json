@@ -13,7 +13,7 @@
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "minecraft:adventure/ol_betsy",
+  "parent": "brokenpath:farming_root",
   "criteria": {
     "always_true": {
       "trigger": "minecraft:impossible"

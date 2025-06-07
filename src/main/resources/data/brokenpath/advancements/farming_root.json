@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wheat"
+    },
+    "title": {
+      "translate": "achievement.brokenpath.farming_root.title"
+    },
+    "description": {
+      "translate": "achievement.brokenpath.farming_root.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "brokenpath:root",
+  "criteria": {
+    "place_first_wheat_seed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:wheat"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

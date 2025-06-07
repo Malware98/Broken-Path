@@ -13,7 +13,7 @@
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "minecraft:story/smelt_iron",
+  "parent": "brokenpath:crafting_root",
   "criteria": {
     "always_true": {
       "trigger": "minecraft:impossible"
