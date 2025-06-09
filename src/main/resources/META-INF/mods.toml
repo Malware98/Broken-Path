@@ -1,44 +1,48 @@
-# La versión del esquema de tu archivo toml. NO CAMBIES ESTO.
-modLoader="javafml" # Esto es para Forge, no lo cambies
-loaderVersion="[1,)" # Rango de versiones del cargador, asegúrate de que sea compatible con tu versión de Forge (1.20.1)
-license="All rights reserved" # Tu licencia o "All rights reserved"
-##issueTrackerURL="https://github.com/Malware98/BrokenPath/issues" # Opcional: Si tienes un repositorio de GitHub para reportar bugs
+# The schema version of your toml file. DO NOT CHANGE THIS.
+modLoader="javafml" # Specifies Forge's mod loader.
+loaderVersion="[1,)" # Loader version range, ensure compatibility with your Forge version (e.g., 1.20.1).
+license="All rights reserved" # Your mod's license, or "All rights reserved" as a default.
+##issueTrackerURL="https://github.com/Malware98/BrokenPath/issues" # Optional: Link to your bug tracker (e.g., GitHub Issues).
 
-# Define la versión de Minecraft para la cual es tu mod.
-# El rango de versiones aquí significa que tu mod se cargará en cualquier versión de Minecraft
-# desde la 1.20.1 (incluida) hasta la próxima versión mayor (excluida)
-# Ejemplo: si pones "[1.20.1,1.21)", funcionará para 1.20.1, 1.20.2, etc., pero no para 1.21.
-# Para 1.20.1 exclusivamente: "[1.20.1,1.20.2)"
-minecraft_version="[1.20.1,1.20.2)" # Esta es la versión para la que estamos desarrollando
+# Define the Minecraft version for which your mod is built.
+# The version range indicates that your mod will load in any Minecraft version
+# from 1.20.1 (inclusive) up to the next major version (exclusive).
+# Example: "[1.20.1,1.21)" works for 1.20.1, 1.20.2, etc., but not 1.21.
+# For 1.20.1 exclusively: "[1.20.1,1.20.2)".
+minecraft_version="[1.20.1,1.20.2)" # The specific Minecraft version this mod targets.
 
-# Lista de tus mods
-[[mods]] # Un nuevo objeto de mod para cada mod que tengas en este archivo toml (generalmente solo uno)
-modId="brokenpath" # TU MOD ID ÚNICO. DEBE COINCIDIR CON BrokenPath.MOD_ID
-version="0.1-1.20.1" # La versión actual de tu mod. Se recomienda usar la convención SemVer (Mayor.Menor.Parche)
-displayName="Broken Path" # El nombre visible de tu mod en el juego
-##updateJSONURL="" # Opcional: URL a un archivo JSON para actualizaciones automáticas
-##logoFile="logo.png" # Opcional: Una imagen para el logo de tu mod (ponlo en src/main/resources)
-credits="Made by Malware98" # Tus créditos
-authors="Malware98" # Los autores principales del mod
+# --- Mod Definition ---
+[[mods]] # Defines a new mod object; typically only one per toml file.
+modId="brokenpath" # YOUR UNIQUE MOD ID. MUST MATCH BrokenPath.MOD_ID in your code.
+version="0.1-1.20.1" # The current version of your mod, ideally following SemVer (Major.Minor.Patch).
+displayName="Broken Path" # The visible name of your mod in-game.
+##updateJSONURL="" # Optional: URL to a JSON file for automatic updates.
+##logoFile="logo.png" # Optional: Path to your mod's logo image (place in src/main/resources).
+credits="Made by Malware98" # Credits for contributors.
+authors="Malware98" # Main authors of the mod.
 
 description='''
-La forja de los dioses creó razas, la guerra dibujó fronteras, y ahora... tu elección rompe el ciclo.
+The forge of the gods created races, war drew borders, and now... your choice breaks the cycle.
 
-Broken Path | Hasta los caminos rotos llevan a la gloria.
-''' # Una breve descripción de tu mod
+Broken Path | Even broken paths lead to glory.
+''' # A brief description of your mod, displayed in-game.
 
 
-# Opcional: Requerimientos de dependencias para tu mod
+# --- Optional: Mod Dependencies ---
+# Dependencies define other mods your mod requires to run.
+
+# Example Forge dependency:
 # [[dependencies.brokenpath]]
-# modId="forge"
-# mandatory=true
-# versionRange="[47.0.0,)" # Ajusta este rango a la versión de Forge para 1.20.1 que estés usando
-# ordering="NONE"
-# side="BOTH"
+# modId="forge"         # The ID of the dependency (Forge itself).
+# mandatory=true        # Specifies if this dependency is required.
+# versionRange="[47.0.0,)" # Adjust this range to the specific Forge version for 1.20.1 you are using.
+# ordering="NONE"       # Controls load order relative to this mod. "NONE" means no specific order.
+# side="BOTH"           # Indicates if the dependency is required on client, server, or both.
 
+# Example Minecraft dependency:
 # [[dependencies.brokenpath]]
-# modId="minecraft"
+# modId="minecraft"     # The ID of Minecraft itself.
 # mandatory=true
-# versionRange="[1.20.1,1.20.2)"
+# versionRange="[1.20.1,1.20.2)" # The Minecraft version range your mod supports.
 # ordering="NONE"
 # side="BOTH"
