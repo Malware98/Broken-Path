@@ -1,15 +1,15 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:stick"
     },
     "title": {
-      "translate": "achievement.brokenpath.first_crafting.title"
+      "translate": "achievement.brokenpath.novice_crafter.title"
     },
     "description": {
-      "translate": "achievement.brokenpath.first_crafting.description"
+      "translate": "achievement.brokenpath.novice_crafter.description"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true
   },

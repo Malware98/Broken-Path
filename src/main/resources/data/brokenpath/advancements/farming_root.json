@@ -15,10 +15,14 @@
   },
   "parent": "brokenpath:root",
   "criteria": {
-    "place_first_wheat_seed": {
-      "trigger": "minecraft:placed_block",
+    "pickup_first_wheat_seed": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "block": "minecraft:wheat"
+        "items": [
+          {
+            "items": ["minecraft:wheat_seeds"]
+          }
+        ]
       }
     }
   },

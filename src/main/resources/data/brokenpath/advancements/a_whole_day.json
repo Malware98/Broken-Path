@@ -9,7 +9,7 @@
     "description": {
       "translate": "achievement.brokenpath.a_whole_day.description"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true
   },

@@ -9,11 +9,11 @@
     "description": {
       "translate": "achievement.brokenpath.creative_crafter.description"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true
   },
-  "parent": "brokenpath:first_crafting",
+  "parent": "brokenpath:novice_crafter",
   "criteria": {
     "always_true": {
       "trigger": "minecraft:impossible"

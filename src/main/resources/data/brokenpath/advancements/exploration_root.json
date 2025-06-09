@@ -15,13 +15,8 @@
   },
   "parent": "brokenpath:root",
   "criteria": {
-    "walk_on_grass": {
-      "trigger": "minecraft:walk_on_block",
-      "conditions": {
-        "block": {
-          "block": "minecraft:grass_block"
-        }
-      }
+    "trigger_by_code": {
+      "trigger": "minecraft:impossible"
     }
   },
   "rewards": {

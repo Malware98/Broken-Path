@@ -9,7 +9,7 @@
     "description": {
       "translate": "achievement.brokenpath.mining_master.description"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true
   },
